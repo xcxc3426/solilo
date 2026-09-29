@@ -1,0 +1,59 @@
+{
+  "mode": "scripted-replay",
+  "renderer": "src/render.mjs",
+  "method": "native canvas export of the same renderer used by the local terminal",
+  "width": 1600,
+  "height": 1000,
+  "atlasSha256": "125da58718c8fd1e704721c0f132e55beedaab41e1bfd8f67db7adccc0e70cb9",
+  "views": [
+    {
+      "view": "vestibule",
+      "file": "01-vestibule.png",
+      "selectedRoom": 1,
+      "step": 10
+    },
+    {
+      "view": "switchboard",
+      "file": "02-switchboard.png",
+      "selectedRoom": 2,
+      "step": 10
+    },
+    {
+      "view": "mirrorwell",
+      "file": "03-mirrorwell.png",
+      "selectedRoom": 6,
+      "step": 10
+    },
+    {
+      "view": "room-graph",
+      "file": "04-room-graph.png",
+      "selectedRoom": 7,
+      "step": 10
+    },
+    {
+      "view": "cold-archive",
+      "file": "05-cold-archive.png",
+      "selectedRoom": 5,
+      "step": 10
+    },
+    {
+      "view": "room-account",
+      "file": "06-room-account.png",
+      "selectedRoom": 10,
+      "step": 10
+    },
+    {
+      "view": "witness",
+      "file": "07-witness.png",
+      "selectedRoom": 11,
+      "step": 10
+    },
+    {
+      "view": "exit",
+      "file": "08-exit.png",
+      "selectedRoom": 12,
+      "step": 10
+    }
+  ],
+  "browserScreenshot": false
+}

@@ -1,0 +1,800 @@
+{
+  "format": "solilo-room-manifest/1",
+  "version": "0.1.0",
+  "mode": "scripted-replay",
+  "atlasSource": "data/atlas.json",
+  "atlasSha256": "125da58718c8fd1e704721c0f132e55beedaab41e1bfd8f67db7adccc0e70cb9",
+  "dimensions": {
+    "width": 80,
+    "height": 28
+  },
+  "glyphEncoding": "printable-ascii-row-major-without-line-delimiters",
+  "canonicalGlyphBytesPerRoom": 2240,
+  "allocationBytes": {
+    "room": 2496,
+    "messagePage": 2176,
+    "messageRecord": 256,
+    "messageBody": 160
+  },
+  "graph": {
+    "roomCount": 12,
+    "edgeCount": 28,
+    "entryId": 1,
+    "reachableIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "unreachableIds": []
+  },
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Vestibule",
+      "source": "rooms/001-vestibule.txt",
+      "exits": [
+        2,
+        8
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "439945883cbc6f9dcc17a4bbfa951fb4c726f73a67d56f3dcc9f5285b7dfab61",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "d5028bcc7073d76684069f2c419e564f6276b2da716e8c078d136fa53662b744"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "fba5c9912645f51b7db2bbea1369bfd4ebb1300ffd05c3837b5f963755a11cb0"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "25ce6b4150ca78eb15118c940145c8527c834f2538a9c648c16ce1f7031d3a51"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "b5ee6aa8a0ad7699a82d594651c53c45c3da977290da3c89f9f1e0fe018118a0"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "5c78738acdf221e6dd92a24b5e9c5e9534d8f57611cbfcad5c107d6b8a309faf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Switchboard",
+      "source": "rooms/002-switchboard.txt",
+      "exits": [
+        1,
+        3,
+        7
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "9aa6e470a6d6e5787f482d69c7377afc37bebb9e7ac59a180d7052f38d3c1fbc",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "d512067397a48246d31e9a9953ecf26dface0be30ec53bdd1054e76d5efeb6a7"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "b9f49b7a4b3f342c67670975a192e86236ceff787516461b5a7373231ee25a4a"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "8497d01d5590490aa4bcfa214fa723ab6dc0837394086f178bd386ac3eb2b843"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "d5bbfebe0e5defd8f0827223d95aaf50d4714df4041efbf3f6ec18c19e5eb317"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "a5084ebafd67bfd18d1b5a90a2a3d6fd6ea4b2d06a06340bb2ffe032032320ef"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Stillwater",
+      "source": "rooms/003-stillwater.txt",
+      "exits": [
+        2,
+        4
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "ee7c111e8f836214e64a696d7918ebc98b86421170264b514482df755aac2934",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "c04fe5428481ec2cc75d03e274dadb6e1dc169fe79eb7f8baecee3bd877d6254"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "706b52741117f1a36a8e9c3aa4a9d9aeff2143d7b42188a65a1ab77e6cec931e"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "64b41b7338d697a2442e00a53fb82e25f71d704b7f72c4e3f31eec9624273c62"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "d06d2634c727281263a09b6bdf7d711b1edf80a290cddc00f3102de80c726d87"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "c9ca16d5161b283bb6a4fd00871ed8541254810c7a0c1c9ad28503d0a4eb04b5"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Null Chapel",
+      "source": "rooms/004-null-chapel.txt",
+      "exits": [
+        3,
+        5
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "385d45863dcdaefc061cf49e3bbca07a9478ab0acc3894f4e5cd7551482e775c",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "e71b578bfa067ecdfa5f8e8dc3a9a0bb7f84961600060be9d6b6a548e465c096"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "1dc6f53409c87b32b2702fb3ce8d4f55a1b3d4aa2dd32dc0c14857bfb3c91ce6"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "066475bf5f5fe1694845ef5160ebba068feb9e0b9b8a38af910d00de79d63a13"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "3ddd74fdbe9eb245a0017e7af6f3aff054a8a729bcfec8f5dac7dc8185dc1592"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "9c2ceb7b6492f966d322058a53e8dd813bfdeea3d0e46d58711d554f07fd0efa"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cold Archive",
+      "source": "rooms/005-cold-archive.txt",
+      "exits": [
+        4,
+        6,
+        10
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "5586c18cfcf458c64c3a5959652a7cd3b2393560abca3d55f736e826ddd3200b",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "17aed5301bc1a6e4d5841761265f906be8c0003e109b187930f23daf8cdce3ce"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "fee09a3b9b632c519fa7992bb234f96778e35ed34d1a3dde65822bcfc19e0fae"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "15cd2cfe6e2bdda42a1b5c47605904d5860f20aa28599d4b5f188df3c6467f18"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "1d40f8cbfc4edbbaee52a1b17c1661e0fac8a3e4f91eb0c8fe9b2051c80b5a68"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "84768d5661484503f8d645e2358db5ca010a4d899537965373cb001412d74f6f"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Mirrorwell",
+      "source": "rooms/006-mirrorwell.txt",
+      "exits": [
+        5,
+        7
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "ba202d7bf7df28726e241aa238daa535074d3104efe3dd25c3f3ab14426e7e73",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "f5983dd707f10887d42bc4e2311f32f86b4c4b5c8bfe321b952fcfe7ef90d785"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "cea66d07104e7bb3873af6830019af1df07f7ffd5ac53ad44c0c52daa45667c9"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "a775732aa8ece09049faa66bbb825b15fa1623a21e75523345ea4e3025df0070"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "e0756844b6ba921142ee7def7c1ec39380fd72d382d522f27d496a9635585098"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "324f4ee5b444e8e66008cf011753681fef6743028089e7996abda7dae1bd806f"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Relay",
+      "source": "rooms/007-relay.txt",
+      "exits": [
+        2,
+        6,
+        11
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "5196a20b02ab1c056a717b62cc0cba6e70c5e9305e4440fe9c927dd48d3338a7",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "e3d78e78f0615825e7ceb959553a3f4cdcc9e781cb814d4b57a838b7eb7d6bf8"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "4e062ce913411d4c6c825a924440b6562ffb212d7ce8f2ffcdedef221a73d37f"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "99a99427fe9676be0904c09238ff05c6e1b53873c2774fd5ee4b4e1a3775c4ee"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "ce4525bdcdcb126936c89055b07593a1288bc325c285af4fd599088e1e8fa14c"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "1e1582b6ed2561cb24492fd828d25afa472a0aaf2e5866bc7126819d9bf66be6"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Soft Floor",
+      "source": "rooms/008-soft-floor.txt",
+      "exits": [
+        1,
+        9
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "49f0d8e51928b168299767bdca643220577e1c9db13625bf08251604541143e2",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "0a21dde0d3230cf41ef0f7f247f635897b8ef263bbc6f1b3610fa88ae1a9697e"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "be0a025abd4bc21c6a1f39b0dc54968008ce4df414cdfa7a17140fc443c17368"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "62f1bea75ef798ddac189405c506c25b5fc5919150004b37e881eb1c757ca917"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "e2f254052e22d2c985b69e8433fb0b9db9f440a1d735c719f34cfb14f0124c40"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "2d157d84cf56b7afa474a6dfda84637fde463735a1801e31ea99050f415e410f"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ascent",
+      "source": "rooms/009-ascent.txt",
+      "exits": [
+        8,
+        10
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "9c48e09f4a949d49eebf2e7748dd0d3a84e3160bb97769750945eae94b466c1b",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "77e23962924eda4ca7f6a1abaccdd69cdd323b068781b6500ea6a41d2e811a80"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "c283095b52c7140798623b9e4ed7b7d214ba6b1e091d3ec1c327562ad1683b8a"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "0c609d9db719c449e3b0b4fef5ee5242b17c4aa40cce48c320ef56df895b8e39"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "1320f830c41c8d9be9c934d0df84538198e69dc720aad648ad4fc00201094796"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "41d5ed3d0222a182c6d5e9aabe8e81c20c533f3bbf6138b515e63588a2d75501"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Reserve",
+      "source": "rooms/010-reserve.txt",
+      "exits": [
+        5,
+        9,
+        11
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "6811bed182f17bfe5ab4b536623b6f6caed25dac262c31edf540fd6c2749f8f6",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "14d6d0ac964de7175169cad0313edf66609d6d2429643c32da3d4a773f8d1d1f"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "272bdece3699bcb7118e485c8fc63f65013135afaa51a7b669dbad7d14bfe25a"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "5b3089e3d660d1a75fe36bd46300d3cb6be76d67a867bd1326971f254f984f46"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "c919e4410e36d4fe7f6f78dfc5b525e95f9b70d9edc64a766f4d1d0fc68f0129"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "92a329f0141676e39ede5490330c2f2966f94445a8ccd080de095c754a55c082"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Witness",
+      "source": "rooms/011-witness.txt",
+      "exits": [
+        7,
+        10,
+        12
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "0d8cc8f734efc5a24cbbad2ed9634afda7e880b8306ca4e5911be5f3ab45437d",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "327b80aafb43a28207382068e80f927ae7dbec9247e316d96368d175a9a2716b"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "4b79148b0e96ee8803a3187649372df4a0cc1567de7da0430f89dd9cf64c474a"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "b7374a2c968043ec647ecf88b7fd611b9f525215615fe6a0542f7e1a630e2607"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "0fe39d124a239ff8e3a5366eaab18e5500f92faf71de040da2b5ab405d98b7ee"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "e0d3075531b2ad298513314da436b038ff315f6545d664064595dd6839973f0f"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Exit",
+      "source": "rooms/012-exit.txt",
+      "exits": [
+        1
+      ],
+      "glyphBytes": 2240,
+      "accountBytes": 2496,
+      "layoutSha256": "afb9fb6bb638d8a01a7b9788221f609ba578bbef71b981b4f987052c57474db8",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 0,
+          "byteLength": 448,
+          "sha256": "a0d0101028f5debfd2a4295cbb648dbf7a26690dc08bb4f6f7053e11a7511a76"
+        },
+        {
+          "index": 1,
+          "offset": 448,
+          "byteLength": 448,
+          "sha256": "03d88258a656c48b1f0a76fb83ed2ab023647a9c3429786e3975593d6d0ba158"
+        },
+        {
+          "index": 2,
+          "offset": 896,
+          "byteLength": 448,
+          "sha256": "9134d105be23844f06c8c4194c15a2ea9b17e7558ad53ccf80103ecdf1e5383d"
+        },
+        {
+          "index": 3,
+          "offset": 1344,
+          "byteLength": 448,
+          "sha256": "a291d8775c1ac346d161ec6184865fc8d86c3a34c9130aef1c814a16605c93c5"
+        },
+        {
+          "index": 4,
+          "offset": 1792,
+          "byteLength": 448,
+          "sha256": "748458b07a669abaab4c7b70b8353652cb80a7b3f294008a0e5a499f7f8a0251"
+        }
+      ]
+    }
+  ],
+  "transcripts": [
+    {
+      "id": "switchboard",
+      "messages": [
+        {
+          "replaySequence": 1,
+          "roomId": 2,
+          "speaker": "ECHO",
+          "bodyBytes": 36,
+          "bodySha256": "b4bb6e3ab942e427860212bb6810b0e7dd718cc0f59b6a0182a710810a8c8be8"
+        },
+        {
+          "replaySequence": 2,
+          "roomId": 7,
+          "speaker": "MOTH",
+          "bodyBytes": 32,
+          "bodySha256": "f4a4c93949eb3a6d56a8139ddc07efb4e8c42e25ae7c6086072b2129ad6ac437"
+        },
+        {
+          "replaySequence": 3,
+          "roomId": 2,
+          "speaker": "ECHO",
+          "bodyBytes": 35,
+          "bodySha256": "f51029149a7e0f50704096873b274afcaacb8c721295a0ef8c35ca05643a724a"
+        },
+        {
+          "replaySequence": 4,
+          "roomId": 7,
+          "speaker": "MOTH",
+          "bodyBytes": 24,
+          "bodySha256": "b9a09c55ddc008d4ad8dfb78213b02070c9fd3bb882249b6a145e0795068ab94"
+        },
+        {
+          "replaySequence": 5,
+          "roomId": 2,
+          "speaker": "WARDEN",
+          "bodyBytes": 64,
+          "bodySha256": "c6d48a6c42b8a02810cefe1872f31545247d3e9f214052c31a6b349771b6a374"
+        },
+        {
+          "replaySequence": 6,
+          "roomId": 2,
+          "speaker": "ECHO",
+          "bodyBytes": 35,
+          "bodySha256": "ab13ad8296bba219a77df1029e7c1c1127fefc331d4886abf9cf1c1e196699f1"
+        },
+        {
+          "replaySequence": 7,
+          "roomId": 7,
+          "speaker": "MOTH",
+          "bodyBytes": 29,
+          "bodySha256": "85a57cc42174a3e6748347eeb0af619bd1680e8e09b7fd0c0bf9274a4be8199f"
+        },
+        {
+          "replaySequence": 8,
+          "roomId": 2,
+          "speaker": "WARDEN",
+          "bodyBytes": 36,
+          "bodySha256": "d14deaf141eb21d7cc99d3d3e1858202e26bfdf17a4926f3224547b067effecd"
+        },
+        {
+          "replaySequence": 9,
+          "roomId": 2,
+          "speaker": "ECHO",
+          "bodyBytes": 41,
+          "bodySha256": "7c81c71c37422bf3b017108e7434ddeab9162edff88cb4d7c9e7c8a49a323875"
+        },
+        {
+          "replaySequence": 10,
+          "roomId": 7,
+          "speaker": "MOTH",
+          "bodyBytes": 39,
+          "bodySha256": "73983479fa6c37ac3365a977c8fb47ae25d9d677bce5104e3f31db1ee9139308"
+        }
+      ]
+    },
+    {
+      "id": "mirrorwell",
+      "messages": [
+        {
+          "replaySequence": 1,
+          "roomId": 6,
+          "speaker": "MOTH",
+          "bodyBytes": 31,
+          "bodySha256": "a805d4d978e41fa7869683092dfc97c489a7fd225fc56e23a37e326641fb6e23"
+        },
+        {
+          "replaySequence": 2,
+          "roomId": 5,
+          "speaker": "ECHO",
+          "bodyBytes": 20,
+          "bodySha256": "96f822be53d70d38823a858be9179b9cfafe86eee62424e8ea29d07c1777ba2e"
+        },
+        {
+          "replaySequence": 3,
+          "roomId": 6,
+          "speaker": "MOTH",
+          "bodyBytes": 26,
+          "bodySha256": "69b127a78c118cbfa6ffd48a169d96d533ed422d0e3aa76755ca4d04b3b75e12"
+        },
+        {
+          "replaySequence": 4,
+          "roomId": 5,
+          "speaker": "WARDEN",
+          "bodyBytes": 49,
+          "bodySha256": "adf304ff5d1b49a8511dc701f4d1dce900f025076782db636804a497c54f4120"
+        },
+        {
+          "replaySequence": 5,
+          "roomId": 5,
+          "speaker": "ECHO",
+          "bodyBytes": 35,
+          "bodySha256": "f080af13c4bc4f68080c1b686d9989cfea306a1fe81453b43bfa017dc6f5297c"
+        },
+        {
+          "replaySequence": 6,
+          "roomId": 5,
+          "speaker": "WARDEN",
+          "bodyBytes": 46,
+          "bodySha256": "0c5ce8d3888d0ccb7d91f155cabdc1fd30a7cbbcfae99c25c4c744cd80e64ec7"
+        },
+        {
+          "replaySequence": 7,
+          "roomId": 6,
+          "speaker": "MOTH",
+          "bodyBytes": 48,
+          "bodySha256": "bf5d85ef97b3c7c2f0780a76d32d5f99ced13784326e02b198cd8b2d3de59343"
+        },
+        {
+          "replaySequence": 8,
+          "roomId": 5,
+          "speaker": "WARDEN",
+          "bodyBytes": 36,
+          "bodySha256": "adc736bdabbf5de122505a95db73fb5300199f9cf8db802fe0656fcdc7f15cfc"
+        },
+        {
+          "replaySequence": 9,
+          "roomId": 5,
+          "speaker": "ECHO",
+          "bodyBytes": 33,
+          "bodySha256": "5cc5a657611aca047007047cfdce56125de877f57ec920de39d99c9af4e42a13"
+        },
+        {
+          "replaySequence": 10,
+          "roomId": 6,
+          "speaker": "MOTH",
+          "bodyBytes": 43,
+          "bodySha256": "a98e93393000cb002108715284828a728ff6acaee697dc7e46adf719c422bbaa"
+        }
+      ]
+    },
+    {
+      "id": "witness",
+      "messages": [
+        {
+          "replaySequence": 1,
+          "roomId": 12,
+          "speaker": "ECHO",
+          "bodyBytes": 40,
+          "bodySha256": "548e81e728161a7a1eb26ee20c3fa47caff759aaa6bf6504db57208be9a4aacc"
+        },
+        {
+          "replaySequence": 2,
+          "roomId": 11,
+          "speaker": "MOTH",
+          "bodyBytes": 38,
+          "bodySha256": "f159668b6d1217b9854306980c0ca806b8a0031665968b228f5d9b5ae0dcfc43"
+        },
+        {
+          "replaySequence": 3,
+          "roomId": 12,
+          "speaker": "ECHO",
+          "bodyBytes": 38,
+          "bodySha256": "332c8af839b1262a1232b7920f13c1420fa135aa1f3b5101e6e4b5e78be14e41"
+        },
+        {
+          "replaySequence": 4,
+          "roomId": 11,
+          "speaker": "WARDEN",
+          "bodyBytes": 9,
+          "bodySha256": "6f77cb3948368060dffa5f1878860f4fbebde936f6fe67ea920f9cc82bdd1cac"
+        },
+        {
+          "replaySequence": 5,
+          "roomId": 11,
+          "speaker": "MOTH",
+          "bodyBytes": 41,
+          "bodySha256": "e6fc8b59facf56338d9871c6fb3b81232fec010c0a9c0eb3a82393cbdcb29d92"
+        },
+        {
+          "replaySequence": 6,
+          "roomId": 11,
+          "speaker": "WARDEN",
+          "bodyBytes": 35,
+          "bodySha256": "412846bf6f78feff94fc0921444565930b294c394310453e61f7741a698bc179"
+        },
+        {
+          "replaySequence": 7,
+          "roomId": 12,
+          "speaker": "ECHO",
+          "bodyBytes": 34,
+          "bodySha256": "89dff9e516863af596597ff3a187233a44743e176a859c3d8aadd3dfe9b9297d"
+        },
+        {
+          "replaySequence": 8,
+          "roomId": 11,
+          "speaker": "WARDEN",
+          "bodyBytes": 45,
+          "bodySha256": "9e073400a8f404c7b6215c71e17a427ce525831c792a3d6df1d929ce92c0a5f9"
+        },
+        {
+          "replaySequence": 9,
+          "roomId": 11,
+          "speaker": "MOTH",
+          "bodyBytes": 20,
+          "bodySha256": "895c9a4db984b3735508acaf1c81cbc37d8abfacd8e995d78243d7618997fece"
+        },
+        {
+          "replaySequence": 10,
+          "roomId": 12,
+          "speaker": "ECHO",
+          "bodyBytes": 27,
+          "bodySha256": "9e902b6ca080523b5201dbc3c1a4472f059fc449378bf7959cc6e8f06d1a6912"
+        }
+      ]
+    }
+  ]
+}

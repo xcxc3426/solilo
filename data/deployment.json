@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "mode": "scripted-replay",
+  "deploymentStatus": "not-deployed",
+  "cluster": null,
+  "programId": null,
+  "roomAccountsOnChain": 0,
+  "inference": "authored-fixtures",
+  "networkAccess": false
+}
