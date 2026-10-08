@@ -1,4 +1,4 @@
-# Header generation prompt
+# Header generation prompt #1
 
 Generated with the built-in image-generation tool. The header is editorial art and is not one of the canonical room grids.
 
